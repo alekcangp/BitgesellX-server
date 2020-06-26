@@ -1,0 +1,13 @@
+[Unit]
+Description=Bitgesellx
+After=network.target
+
+[Service]
+EnvironmentFile=/etc/bitgesellx.conf
+ExecStart=/usr/local/bin/bitgesellx_server
+User=bitgesellx
+LimitNOFILE=8192
+TimeoutStopSec=30min
+
+[Install]
+WantedBy=multi-user.target
