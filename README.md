@@ -1,5 +1,5 @@
 # BitgesellX-server
-Electrum server for Bitgesell
+Electrum server for Bitgesell is based on [lucasan123/BitgesellX-server](https://github.com/lucasan123/BitgesellX-server)
 
 [HOWTO](https://electrumx-spesmilo.readthedocs.io/en/latest/HOWTO.html#)
 
